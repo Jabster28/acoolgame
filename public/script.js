@@ -3,7 +3,7 @@ $(function() {
   var rythm = new Rythm()
 rythm.setMusic('res/cyc.mp3')
 rythm.addRythm('bassjump', 'jump', 0, 10)
-rythm.addRythm('trebleshake', 'shake', 500, 100)
+rythm.addRythm('trebleshake', 'twist', 500, 100)
 
 rythm.start()
   // orchestra
