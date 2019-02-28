@@ -1,4 +1,8 @@
 $(function() {
+  // rythm
+  var rythm = new Rythm()
+rythm.setMusic('res/cyc.mp3')
+rythm.start()
   // orchestra
   console.log("hello")
   const orchestra = new Orchestre(155);

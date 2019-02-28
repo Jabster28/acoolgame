@@ -7,6 +7,7 @@ app.use("/lib/orchestre.min.js", express.static(__dirname + "/lib/orchestre.min.
 // app.get("/script.js", express.static(__dirname + "/public/script.js"));
 app.get("/script.js", expressBrowserify("public/script.js"));
 app.use("/1.ogg", express.static(__dirname + "/res/1.ogg"))
+app.use("/res/cyc.mp3", express.static(__dirname + "/res/cyc.mp3"))
 const port = 3000
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 app.use(function (req, res, next) {
