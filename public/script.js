@@ -9,6 +9,7 @@ rythm.addRythm('trebleshakel', 'twist', 0, 10, {
   radius: 5,
   direction: "left"
 })
+rythm.addRythm('trebleshakel', 'pulse', 0, 10)
 
 rythm.start()
 // orchestra
