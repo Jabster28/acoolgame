@@ -3,7 +3,9 @@ var rythm = new Rythm()
 rythm.setMusic('res/cyc.mp3')
 rythm.addRythm('bassjump', 'jump', 500, 100)
 rythm.addRythm('trebleshake', 'twist', 0, 10, {
-  radius: -100
+  radius: 5,
+  min: 5,
+  max: 5
 })
 
 rythm.start()
