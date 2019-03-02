@@ -1,8 +1,12 @@
 {
   "dependencies": {
+    "body-parser": "^1.18.3",
     "browserify": "^16.2.3",
+    "diet": "^0.16.0",
     "express": "^4.16.4",
     "express-browserify": "^1.0.3",
-    "orchestre-js": "^1.1.0"
+    "json-stringify-safe": "^5.0.1",
+    "orchestre-js": "^1.1.0",
+    "phaser": "^3.16.2"
   }
 }
