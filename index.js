@@ -3,6 +3,8 @@ const express = require('express')
 const app = express()
 var expressBrowserify = require('express-browserify');
 app.use("/", express.static(__dirname + "/public/"))
+app.use("/a/", express.static(__dirname + "/public/a.html"))
+
 app.use("/lib/orchestre.min.js", express.static(__dirname + "/lib/orchestre.min.js"))
 // app.get("/script.js", express.static(__dirname + "/public/script.js"));
 app.get("/script.js", expressBrowserify("public/script.js"));
