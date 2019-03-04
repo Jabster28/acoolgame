@@ -2,10 +2,10 @@
 var rythm = new Rythm()
 rythm.setMusic('res/cyc.mp3')
 
-rythm.addRythm('trebleshake', 'twist', 500, 100, {
+rythm.addRythm('trebleshake', 'twist', 150, 40, {
   radius: 5
 })
-rythm.addRythm('trebleshakel', 'twist', 500, 100, {
+rythm.addRythm('trebleshakel', 'twist', 150, 40, {
   radius: 5,
   direction: "left"
 })
