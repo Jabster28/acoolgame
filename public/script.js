@@ -1,7 +1,7 @@
 // rythm
 var rythm = new Rythm()
 rythm.setMusic('res/cyc.mp3')
-r
+
 rythm.addRythm('trebleshake', 'twist', 500, 100, {
   radius: 5
 })
