@@ -1,5 +1,19 @@
 <head>
   <script src="lib/orchestre.min.js"></script>
+  
+<script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAxKuuSDQY53InfmdVtAfIRyWDV9WvpSqI",
+    authDomain: "some-multiplayer-game.firebaseapp.com",
+    databaseURL: "https://some-multiplayer-game.firebaseio.com",
+    projectId: "some-multiplayer-game",
+    storageBucket: "some-multiplayer-game.appspot.com",
+    messagingSenderId: "558636064990"
+  };
+  firebase.initializeApp(config);
+</script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/rythm.js/2.2.4/rythm.min.js"></script>
   <title>Gamedev Canvas Workshop</title>
   <style>
