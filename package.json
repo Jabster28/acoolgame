@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@pm2/io": "^4.1.2",
     "body-parser": "^1.18.3",
     "browserify": "^16.2.3",
     "diet": "^0.16.0",
@@ -7,6 +8,7 @@
     "express-browserify": "^1.0.3",
     "json-stringify-safe": "^5.0.1",
     "orchestre-js": "^1.1.0",
-    "phaser": "^3.16.2"
+    "phaser": "^3.16.2",
+    "pm2": "^3.3.1"
   }
 }
