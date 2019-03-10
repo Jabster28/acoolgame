@@ -1,5 +1,13 @@
 var server = require('diet');
 var users = []
+var pm2 = require("@pm2/io")
+function execute(command) {
+  const exec = require('child_process').exec
+
+  exec(command, (err, stdout, stderr) => {
+    process.stdout.write(stdout)
+  })
+}
 var contains = function(needle) {
 	    var findNaN = needle !== needle;
 	    var indexOf;
